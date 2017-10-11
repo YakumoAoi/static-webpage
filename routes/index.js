@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
 router.get('/loadmore', function(req, res) {
     let index = req.query.index
     let length = req.query.length
